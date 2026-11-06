@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: personal-web-proxy
+    runtime: docker
+    plan: free
+    healthCheckPath: /
