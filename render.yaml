@@ -2,5 +2,6 @@ services:
   - type: web
     name: personal-web-proxy
     runtime: docker
+    rootDir: school-proxy
     plan: free
     healthCheckPath: /
